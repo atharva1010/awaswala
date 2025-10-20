@@ -1,0 +1,33 @@
+{
+  "name": "auth-backend",
+  "version": "1.0.0",
+  "description": "Authentication backend with OTP",
+  "main": "server.js",
+  "scripts": {
+    "dev": "vite",
+    "start-server": "node server.js",
+    "dev-server": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.544.0",
+    "multer": "^1.4.5-lts.1",
+    "react-router-dom": "^7.9.3",
+    "streamifier": "^0.1.1",
+    "twilio": "^5.9.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.3",
+    "concurrently": "^9.2.1",
+    "nodemon": "^2.0.20",
+    "vite": "^7.1.7"
+  }
+}
